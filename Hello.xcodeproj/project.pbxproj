@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84316C4A2CFE068D000837F1 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 84316C492CFE068D000837F1 /* SwiftUIIntrospect */; };
-		84316C4E2CFE068D000837F1 /* SwiftUIIntrospect-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 84316C4D2CFE068D000837F1 /* SwiftUIIntrospect-Static */; };
-		846A83622CFE6152009C487E /* ZTronCarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 846A83612CFE6152009C487E /* ZTronCarousel */; };
-		8485B4A22C8FBB820018CAA1 /* HelloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4A12C8FBB820018CAA1 /* HelloApp.swift */; };
+		842DCC4F2D9D695E00ACA71D /* Refresher in Frameworks */ = {isa = PBXBuildFile; productRef = 842DCC4E2D9D695E00ACA71D /* Refresher */; };
+		842DCC522D9D697D00ACA71D /* ExyteGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 842DCC512D9D697D00ACA71D /* ExyteGrid */; };
+		842DCC542D9D69C900ACA71D /* HelloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DCC532D9D69C900ACA71D /* HelloApp.swift */; };
+		84376EDC2D0202DC00E53905 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 84376EDB2D0202DC00E53905 /* Localizable.xcstrings */; };
+		8447A4F72D1469C7001BBAAE /* TrolltasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447A4F62D1469C4001BBAAE /* TrolltasticView.swift */; };
+		8479F38B2D788F4100858CE9 /* ZTronHomeBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479F38A2D788F3E00858CE9 /* ZTronHomeBackup.swift */; };
+		8479F3902D78A54D00858CE9 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479F38F2D78A54600858CE9 /* CustomTextFieldStyle.swift */; };
 		8485B4A42C8FBB820018CAA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4A32C8FBB820018CAA1 /* ContentView.swift */; };
 		8485B4A62C8FBB820018CAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8485B4A52C8FBB820018CAA1 /* Assets.xcassets */; };
 		8485B4A92C8FBB820018CAA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8485B4A82C8FBB820018CAA1 /* Preview Assets.xcassets */; };
 		8485B4B32C8FBB830018CAA1 /* HelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4B22C8FBB830018CAA1 /* HelloTests.swift */; };
 		8485B4BD2C8FBB830018CAA1 /* HelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4BC2C8FBB830018CAA1 /* HelloUITests.swift */; };
 		8485B4BF2C8FBB830018CAA1 /* HelloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4BE2C8FBB830018CAA1 /* HelloUITestsLaunchTests.swift */; };
+		84A35B462DAE82C000B4B656 /* TabBarModule in Frameworks */ = {isa = PBXBuildFile; productRef = 84A35B452DAE82C000B4B656 /* TabBarModule */; };
+		84B1ECC72DB26A810078A0E0 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1ECC62DB26A7C0078A0E0 /* HomePageModel.swift */; };
+		84B1EF612DB272290078A0E0 /* FloatingButton in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1EF602DB272290078A0E0 /* FloatingButton */; };
+		84B1EF632DB275030078A0E0 /* ZTronFiltersFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1EF622DB274F50078A0E0 /* ZTronFiltersFloatingButton.swift */; };
+		84B394862DAFFD0800BAEDBB /* KeyboardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B394852DAFFD0300BAEDBB /* KeyboardReadable.swift */; };
+		84B397262DB05C1500BAEDBB /* ZTronHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B397252DB05C1300BAEDBB /* ZTronHome.swift */; };
+		84BD32DC2DABF99000113BD2 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 84BD32DB2DABF99000113BD2 /* Pages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842DCC532D9D69C900ACA71D /* HelloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloApp.swift; sourceTree = "<group>"; };
+		84376EDB2D0202DC00E53905 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		8447A4F62D1469C4001BBAAE /* TrolltasticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolltasticView.swift; sourceTree = "<group>"; };
+		8479F38A2D788F3E00858CE9 /* ZTronHomeBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronHomeBackup.swift; sourceTree = "<group>"; };
+		8479F38F2D78A54600858CE9 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 		8485B49E2C8FBB820018CAA1 /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8485B4A12C8FBB820018CAA1 /* HelloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloApp.swift; sourceTree = "<group>"; };
 		8485B4A32C8FBB820018CAA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8485B4A52C8FBB820018CAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8485B4A82C8FBB820018CAA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,11 +61,15 @@
 		8485B4B82C8FBB830018CAA1 /* HelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8485B4BC2C8FBB830018CAA1 /* HelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUITests.swift; sourceTree = "<group>"; };
 		8485B4BE2C8FBB830018CAA1 /* HelloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B1ECC62DB26A7C0078A0E0 /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
+		84B1EF622DB274F50078A0E0 /* ZTronFiltersFloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronFiltersFloatingButton.swift; sourceTree = "<group>"; };
+		84B394852DAFFD0300BAEDBB /* KeyboardReadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardReadable.swift; sourceTree = "<group>"; };
+		84B397252DB05C1300BAEDBB /* ZTronHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		84316BD42CFDCF60000837F1 /* Memory Charms */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Memory Charms"; sourceTree = "<group>"; };
-		847D241A2CFB51550095183C /* Outlines */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Outlines; sourceTree = "<group>"; };
+		8479F3822D7887B800858CE9 /* Extension */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extension; sourceTree = "<group>"; };
+		84B394872DB0454600BAEDBB /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +77,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84316C4A2CFE068D000837F1 /* SwiftUIIntrospect in Frameworks */,
-				846A83622CFE6152009C487E /* ZTronCarousel in Frameworks */,
-				84316C4E2CFE068D000837F1 /* SwiftUIIntrospect-Static in Frameworks */,
+				84BD32DC2DABF99000113BD2 /* Pages in Frameworks */,
+				842DCC522D9D697D00ACA71D /* ExyteGrid in Frameworks */,
+				84A35B462DAE82C000B4B656 /* TabBarModule in Frameworks */,
+				84B1EF612DB272290078A0E0 /* FloatingButton in Frameworks */,
+				842DCC4F2D9D695E00ACA71D /* Refresher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,21 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		846A835D2CFE58D5009C487E /* Frameworks */ = {
+		39B93CF9844960B74FDD9EBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		8485B4952C8FBB810018CAA1 = {
 			isa = PBXGroup;
 			children = (
+				84376EDB2D0202DC00E53905 /* Localizable.xcstrings */,
 				8485B4A02C8FBB820018CAA1 /* Hello */,
 				8485B4B12C8FBB830018CAA1 /* HelloTests */,
 				8485B4BB2C8FBB830018CAA1 /* HelloUITests */,
-				846A835D2CFE58D5009C487E /* Frameworks */,
 				8485B49F2C8FBB820018CAA1 /* Products */,
+				39B93CF9844960B74FDD9EBA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,12 +134,19 @@
 		8485B4A02C8FBB820018CAA1 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
-				84316BD42CFDCF60000837F1 /* Memory Charms */,
-				847D241A2CFB51550095183C /* Outlines */,
-				8485B4A12C8FBB820018CAA1 /* HelloApp.swift */,
+				84B1EF622DB274F50078A0E0 /* ZTronFiltersFloatingButton.swift */,
+				84B1ECC62DB26A7C0078A0E0 /* HomePageModel.swift */,
+				84B397252DB05C1300BAEDBB /* ZTronHome.swift */,
+				84B394872DB0454600BAEDBB /* Components */,
+				84B394852DAFFD0300BAEDBB /* KeyboardReadable.swift */,
+				8479F38F2D78A54600858CE9 /* CustomTextFieldStyle.swift */,
+				8479F38A2D788F3E00858CE9 /* ZTronHomeBackup.swift */,
+				8479F3822D7887B800858CE9 /* Extension */,
+				8447A4F62D1469C4001BBAAE /* TrolltasticView.swift */,
 				8485B4A32C8FBB820018CAA1 /* ContentView.swift */,
 				8485B4A52C8FBB820018CAA1 /* Assets.xcassets */,
 				8485B4A72C8FBB820018CAA1 /* Preview Content */,
+				842DCC532D9D69C900ACA71D /* HelloApp.swift */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -164,8 +192,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				84316BD42CFDCF60000837F1 /* Memory Charms */,
-				847D241A2CFB51550095183C /* Outlines */,
+				8479F3822D7887B800858CE9 /* Extension */,
+				84B394872DB0454600BAEDBB /* Components */,
 			);
 			name = Hello;
 			productName = Hello;
@@ -214,7 +242,6 @@
 		8485B4962C8FBB810018CAA1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -232,17 +259,21 @@
 				};
 			};
 			buildConfigurationList = 8485B4992C8FBB810018CAA1 /* Build configuration list for PBXProject "Hello" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 8485B4952C8FBB810018CAA1;
 			packageReferences = (
-				84316C482CFE068D000837F1 /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
-				846A83602CFE6152009C487E /* XCRemoteSwiftPackageReference "ZTronCarousel" */,
+				8479F38C2D78A1C900858CE9 /* XCRemoteSwiftPackageReference "SwiftUI-Refresher" */,
+				842DCC502D9D697D00ACA71D /* XCRemoteSwiftPackageReference "Grid" */,
+				84BD32DA2DABF99000113BD2 /* XCRemoteSwiftPackageReference "Pages" */,
+				84A35B442DAE82C000B4B656 /* XCRemoteSwiftPackageReference "swiftui-tab-bar" */,
+				84B1EF5F2DB272290078A0E0 /* XCRemoteSwiftPackageReference "FloatingButton" */,
 			);
 			productRefGroup = 8485B49F2C8FBB820018CAA1 /* Products */;
 			projectDirPath = "";
@@ -261,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8485B4A92C8FBB820018CAA1 /* Preview Assets.xcassets in Resources */,
+				84376EDC2D0202DC00E53905 /* Localizable.xcstrings in Resources */,
 				8485B4A62C8FBB820018CAA1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8485B4A42C8FBB820018CAA1 /* ContentView.swift in Sources */,
-				8485B4A22C8FBB820018CAA1 /* HelloApp.swift in Sources */,
+				84B397262DB05C1500BAEDBB /* ZTronHome.swift in Sources */,
+				84B1EF632DB275030078A0E0 /* ZTronFiltersFloatingButton.swift in Sources */,
+				84B394862DAFFD0800BAEDBB /* KeyboardReadable.swift in Sources */,
+				84B1ECC72DB26A810078A0E0 /* HomePageModel.swift in Sources */,
+				842DCC542D9D69C900ACA71D /* HelloApp.swift in Sources */,
+				8479F38B2D788F4100858CE9 /* ZTronHomeBackup.swift in Sources */,
+				8479F3902D78A54D00858CE9 /* CustomTextFieldStyle.swift in Sources */,
+				8447A4F72D1469C7001BBAAE /* TrolltasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +422,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -439,6 +479,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -453,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Hello/Preview Content\"";
 				DEVELOPMENT_TEAM = XR9245G3HG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -483,6 +525,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Hello/Preview Content\"";
 				DEVELOPMENT_TEAM = XR9245G3HG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -621,39 +664,73 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		84316C482CFE068D000837F1 /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+		842DCC502D9D697D00ACA71D /* XCRemoteSwiftPackageReference "Grid" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			repositoryURL = "https://github.com/exyte/Grid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		8479F38C2D78A1C900858CE9 /* XCRemoteSwiftPackageReference "SwiftUI-Refresher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gh123man/SwiftUI-Refresher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		84A35B442DAE82C000B4B656 /* XCRemoteSwiftPackageReference "swiftui-tab-bar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zijievv/swiftui-tab-bar";
 			requirement = {
 				branch = main;
 				kind = branch;
 			};
 		};
-		846A83602CFE6152009C487E /* XCRemoteSwiftPackageReference "ZTronCarousel" */ = {
+		84B1EF5F2DB272290078A0E0 /* XCRemoteSwiftPackageReference "FloatingButton" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/NiccoloBargioni/ZTronCarousel";
+			repositoryURL = "https://github.com/exyte/FloatingButton";
 			requirement = {
-				kind = revision;
-				revision = aefebd927d5f61952493836ba1a02b601245d5ae;
+				branch = main;
+				kind = branch;
+			};
+		};
+		84BD32DA2DABF99000113BD2 /* XCRemoteSwiftPackageReference "Pages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NickTheFreak97/Pages";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		84316C492CFE068D000837F1 /* SwiftUIIntrospect */ = {
+		842DCC4E2D9D695E00ACA71D /* Refresher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 84316C482CFE068D000837F1 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
-			productName = SwiftUIIntrospect;
+			package = 8479F38C2D78A1C900858CE9 /* XCRemoteSwiftPackageReference "SwiftUI-Refresher" */;
+			productName = Refresher;
 		};
-		84316C4D2CFE068D000837F1 /* SwiftUIIntrospect-Static */ = {
+		842DCC512D9D697D00ACA71D /* ExyteGrid */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 84316C482CFE068D000837F1 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
-			productName = "SwiftUIIntrospect-Static";
+			package = 842DCC502D9D697D00ACA71D /* XCRemoteSwiftPackageReference "Grid" */;
+			productName = ExyteGrid;
 		};
-		846A83612CFE6152009C487E /* ZTronCarousel */ = {
+		84A35B452DAE82C000B4B656 /* TabBarModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 846A83602CFE6152009C487E /* XCRemoteSwiftPackageReference "ZTronCarousel" */;
-			productName = ZTronCarousel;
+			package = 84A35B442DAE82C000B4B656 /* XCRemoteSwiftPackageReference "swiftui-tab-bar" */;
+			productName = TabBarModule;
+		};
+		84B1EF602DB272290078A0E0 /* FloatingButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B1EF5F2DB272290078A0E0 /* XCRemoteSwiftPackageReference "FloatingButton" */;
+			productName = FloatingButton;
+		};
+		84BD32DB2DABF99000113BD2 /* Pages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84BD32DA2DABF99000113BD2 /* XCRemoteSwiftPackageReference "Pages" */;
+			productName = Pages;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

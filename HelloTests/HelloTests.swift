@@ -1,36 +1,37 @@
-//
-//  HelloTests.swift
-//  HelloTests
-//
-//  Created by Niccolo Della Rocca on 09/09/24.
-//
-
 import XCTest
 @testable import Hello
 
 final class HelloTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    
+    func testCartesian() throws {
+        let triples = WaterColor.allCases.cartesianProduct(WaterColor.allCases).cartesianProduct(WaterColor.allCases)
+        for element in triples {
+            print(element.0.0.rawValue, element.0.1.rawValue, element.1.rawValue)
         }
     }
+    
+}
 
+import Foundation
+
+public extension Array {
+    func cartesianProduct<RE>(_ rhs: Array<RE>) -> Array<(Self.Element, RE)> {
+        var cartesian: Array<(Self.Element, RE)> = .init()
+        
+        for left in self {
+            for right in rhs {
+                cartesian.append((left, right))
+            }
+        }
+        
+        return cartesian
+    }
+}
+
+public enum WaterColor: String, CaseIterable {
+    case blue = "blue"
+    case purple = "purple"
+    case green = "green"
+    case rainbow = "rainbow"
 }

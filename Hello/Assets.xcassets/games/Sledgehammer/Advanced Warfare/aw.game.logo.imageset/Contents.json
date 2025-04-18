@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "call-of-duty-advanced-warfare-2-sledgehammer-lavorando-sequel-aggiornata-v5-612047-1280x960 .png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "2" : {
+
+    },
+    "Billion Dollar Treasure Hunt" : {
+
+    },
+    "Buried Maze" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Favourites" : {
+
+    },
+    "Features" : {
+
+    },
+    "Home" : {
+
+    },
+    "Infinity Ward" : {
+
+    },
+    "iw.rave.memory_chamrs.pro_tip_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you’re unsure where to place a charm, enter Rave Mode. You’ll see the location where you need to interact glowing in an intense blue."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se non sai dove posizionare il ciondolo, entra in modalità rave. Vedrai il punto in cui devi interagire brillare di un blu acceso."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.arrow_head.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrow Head"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punta di freccia"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.arrow_head.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place the charm on the counter of the building on the right of the archer range, above the Recreational area.\nEnter Rave mode.\nShoot all the target as quickly as possible."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiziona il ciondolo sul bancone dell’edificio a sinistra del poligono di tiro, sopra all’area ricreativa.\nEntra in modalità rave.\nSpara a tutti i bersagli il più velocemente possibile."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.arrow_head.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When aiming down sight, the aim auto locks to zombies heads."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando miri, si attiva un agganciamento automatico alla testa degli zombie."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.billiard_ball.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billiard Ball"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palla da biliardo"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.billiard_ball.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the room upstairs in Bear Lodge, and place the billiard ball on the pool table.\nShoot all the white cue-balls."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recati nella stanza al primo piano di Bear Lodge, e posiziona la palla da biliardo sul tavolo da gioco.\nSpara a tutti i pallini bianchi."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.billiard_ball.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When sliding into a zombie, it gets damaged."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando scivoli contro uno zombie, questo viene danneggiato."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.binoculars.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binoculars"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binocolo"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.binoculars.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place charm on bench near Bait and Tackle, near the Fortune Teller gazebo with KBS sniper rifle wallbuy, in the Bear Lake area.\nShoot 5 eyeballs (5 on Turtle Island, one above each totem, 2 180 degrees behind Turtle Island direction, 1 above Slappy Taffy). \nGet 10-15 headshots.\n"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiziona il ciondolo vicino a Bait and Tackle, vicino al gazebo del cartomante con il cecchino KBS a muro, nell’area di Bear Lake.\nSpara a cinque bulbi oculari (5 su Turtle Island, uno su ogni totem, 2 sugli scogli fuori mappa a sinistra di Turtle Island, 1 sopra a Slappy Taffy). \nOttieni tra i 10 ed i 15 colpi alla testa.\n"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.binoculars.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When near another player, reloading generates an electric shock that damages and slows down nearby zombies."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricaricare in prossimità di un altro giocatore produce una scossa che danneggia e stordisce gli zombie circostanti."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.boots.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boots"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stivali"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.boots.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the Camper Cabins area, place the charm in the last building of the top hallway, near a carpet.\nFollow the footsteps to the window until you see a Slasher appearing.\nGo in Bear Lodge building and follow the steps to the window until you see a Slasher appearing.\nGo to Bear Lake at the Reaver shotgun wallbuy and follow the steps to the window until you see a Slasher appearing.\nGo to Camper Cabins and pick up the charm from where you left it."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nella zona dei camper, posiziona il ciondolo nell’ultima casa del corridoio superiore, vicino ad un tappeto.\nSegui i passi fino alla finestra, finché non vedi apparire uno Slasher.\nRecati in Bear Lodge e segui i passi fino alla finestra, finché non vedi apparire uno Slasher.\nRecati a Bear Lake, dove si trova il Reaver a muro, e segui i passi fino alla finestra, finché non vedi apparire uno Slasher.\nTorna nella zona dei camper e recupera il ciondolo da dove era stato lasciato."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.boots.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It acts like Change Chews perk from Attack of the Radioactive Thing, making heads of zombies explode and damage nearby zombies when the player scores an headshot."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha lo stesso effetto di Change Chews di Attacco della cosa radioattiva: quando il giocatore mette a segno un colpo alla testa, il cervello dello zombie esplode danneggiando gli zombie circostanti."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.fish.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fish"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesce"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.fish.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Bear Lake, go to the end of the dock where the boat to Turtle Island rests. \nPlace the fish charm on the other side of the life rings.\nThrow grenades toward the blue glowing creature in the water until it dies."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Bear Lake, recati in fondo al molo dov’è posizionata la barca per Turtle Island.\nPosiziona il ciondolo sul lato opposto rispetto ai salvagente.\nSpara granate contro la creatura blu brillante nell’acqua finché non muore."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.fish.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprint faster over time. Jumping and sliding will reset your momentum."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corri più velocemente col passare del tempo. I salti e le scivolate resettano la velocità."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.frog.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frog"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rana"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.frog.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Outside Mess Hall, place the charm in the swamp before the trap to Bear Lake.\nEnter Rave mode.\nJump and pound as many frogs as necessary."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuori dal Mess Hall, posiziona il ciondolo nella palude prima della trappola nella via che conduce a Bear Lake.\nEntra in modalità Rave.\nSalta e colpisci con corpo a corpo un numero sufficiente di rane. "
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.frog.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can sprint in water."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi correre nell'acqua."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.mask.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mask"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maschera"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.mask.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to Mess Hall building, and place the charm on a shelf with a blank frame and a picture of David Savage and his treasure, near the exit toward Bear Lake.\nShoot the key on the left of the frame."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recati nella stanza del Mess Hall, e posiziona la maschera su un piano di lavoro con sopra un quadro vuoto ed una foto di David Savage ed il suo tesoro, accanto all’uscita verso Bear Lake.\nSpara alla chiave alla sinistra della cornice."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.mask.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When a weapon is not in your hands, it regenerates ammo."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le armi nel tuo inventario guadagnano munizioni."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.pacifier.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pacifier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciuccio"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.pacifier.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the Mess Hall building, place the charm on the top of the counter in front of Blue Bolts perk machine.\nComplete the survival until you’re allowed to leave the building."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nell’edificio del Mess Hall, posiziona il ciondolo sul banco da lavoro di fronte alla macchina del perk Blue Bolts.\nCompleta la sopravvivenza finché non puoi lasciare l'edificio."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.pacifier.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombies that hit you get damaged."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie che ti colpiscono vengono danneggiati."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.ring.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ring"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anello"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.ring.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place the ring next to the TV in the Bear Lodge.\nInteract with the lamps above the fire and on bench until both cast their light toward the ring."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiziona l’anello vicino alla televisione in Bear Lodge.\nInteragisci con le lampade sopra al focolaio e sopra la panca finché entrambe non proiettano la propria luce sull'anello."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.ring.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you melee, your health regenerates."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando effettui un attacco corpo a corpo, si attiva la rigenerazione della salute."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.shovel.gallery_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shovel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pala"
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.shovel.requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place the shovel on a grave in the swamp outside Mess Hall, before the trap on the way to Bear Lake. \nKill 5 skeletons."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiziona la pala su una tomba nella zona della palude fuori dal Mess Hall, prima della trappola nella via che conduce a Bear Lake. \nUccidi 5 scheletri."
+          }
+        }
+      }
+    },
+    "iw.rave.memory_charms.shovel.reward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After reviving a teammate, an explosion kills nearby zombies."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dopo aver rianimato un compagno, gli zombie circostanti vengono uccisi da un’esplosione."
+          }
+        }
+      }
+    },
+    "Memory charms" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory charms"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciondoli"
+          }
+        }
+      }
+    },
+    "Pick Your Game, Find The Easter Eggs!" : {
+
+    },
+    "Pro tip!" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip!"
+          }
+        }
+      }
+    },
+    "Requirements" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirements"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisiti"
+          }
+        }
+      }
+    },
+    "Reward" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rewards"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricompensa"
+          }
+        }
+      }
+    },
+    "Scroll down to search" : {
+
+    },
+    "Search..." : {
+
+    },
+    "Select your Call of Duty game and press to begin the hunt for hidden Easter eggs." : {
+
+    },
+    "SHG" : {
+
+    },
+    "Team up" : {
+
+    },
+    "Team Up" : {
+
+    },
+    "Treyarch" : {
+
+    }
+  },
+  "version" : "1.0"
+}
