@@ -1,7 +1,10 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "2" : {
+    "%@" : {
+
+    },
+    "%lld" : {
 
     },
     "Billion Dollar Treasure Hunt" : {
@@ -20,9 +23,6 @@
 
     },
     "Home" : {
-
-    },
-    "Infinity Ward" : {
 
     },
     "iw.rave.memory_chamrs.pro_tip_body" : {
@@ -626,16 +626,7 @@
     "Select your Call of Duty game and press to begin the hunt for hidden Easter eggs." : {
 
     },
-    "SHG" : {
-
-    },
-    "Team up" : {
-
-    },
     "Team Up" : {
-
-    },
-    "Treyarch" : {
 
     }
   },

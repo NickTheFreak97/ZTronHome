@@ -52,16 +52,20 @@ struct ContentView: View, KeyboardReadable {
                         }
                         .tag(0)
                         .overlay(alignment: .bottomTrailing) {
-                            ZTronFiltersFloatingButton()
+                            ZTronFiltersFloatingButton(filters: ["Treyarch", "Infinity Ward", "SHG"])
                                 .padding(.bottom)
                         }
                     
-                    Text("Team up")
+                    ZTronToolsSelection()
                         .tabItem {
                             Label("Team Up", systemImage: "person.2.fill")
                                 .font(.system(.footnote, design: .rounded).weight(self.activeTab == 1 ? .bold : .medium))
                         }
                         .tag(1)
+                        .overlay(alignment: .bottomTrailing) {
+                            ZTronFiltersFloatingButton(filters: ["Easter egg", "Skull breaker", "Side quests", "Music"])
+                                .padding(.bottom)
+                        }
                     
                     Text("Favourites")
                         .tabItem {
