@@ -5,6 +5,9 @@ public struct ZTronFiltersFloatingButton: View {
     private let filters: [String]
     @State private var activeFilters: [String] = []
     
+    private var onFilterAddedAction: ((String) -> Void)?
+    private var onFilterRemovedAction: ((String) -> Void)?
+    
     public init(filters: [String]) {
         self.filters = filters
     }
@@ -19,8 +22,10 @@ public struct ZTronFiltersFloatingButton: View {
                                 self.activeFilters.removeAll { other in
                                     return other == filter
                                 }
+                                self.onFilterRemovedAction?(filter)
                             } else {
                                 self.activeFilters.append(filter)
+                                self.onFilterAddedAction?(filter)
                             }
                         } label: {
                             Text(filter)
@@ -77,6 +82,7 @@ public struct ZTronFiltersFloatingButton: View {
                     .foregroundStyle(.accent)
             }
         }
+        .padding(.leading)
         .clipShape(Capsule())
         .frame(
             minWidth: 48,
@@ -117,7 +123,17 @@ public struct ZTronFiltersFloatingButton: View {
         .padding(.horizontal)
     }
 
+    public func onFilterAdded(_ perform: @escaping (String) -> Void) -> Self {
+        var copy = self
+        copy.onFilterAddedAction = perform
+        return copy
+    }
     
+    public func onFilterRemoved(_ perform: @escaping (String) -> Void) -> Self {
+        var copy = self
+        copy.onFilterRemovedAction = perform
+        return copy
+    }
 }
 
 #Preview {

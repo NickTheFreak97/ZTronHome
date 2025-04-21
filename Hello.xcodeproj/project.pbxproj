@@ -20,6 +20,7 @@
 		8485B4B32C8FBB830018CAA1 /* HelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4B22C8FBB830018CAA1 /* HelloTests.swift */; };
 		8485B4BD2C8FBB830018CAA1 /* HelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4BC2C8FBB830018CAA1 /* HelloUITests.swift */; };
 		8485B4BF2C8FBB830018CAA1 /* HelloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485B4BE2C8FBB830018CAA1 /* HelloUITestsLaunchTests.swift */; };
+		8491E4F12DB4F645001AFA00 /* Seal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491E4F02DB4F627001AFA00 /* Seal.swift */; };
 		84A35B462DAE82C000B4B656 /* TabBarModule in Frameworks */ = {isa = PBXBuildFile; productRef = 84A35B452DAE82C000B4B656 /* TabBarModule */; };
 		84B1ECC72DB26A810078A0E0 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1ECC62DB26A7C0078A0E0 /* HomePageModel.swift */; };
 		84B1EF612DB272290078A0E0 /* FloatingButton in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1EF602DB272290078A0E0 /* FloatingButton */; };
@@ -31,6 +32,9 @@
 		84E6783B2DB3CA0300EAAF89 /* DraggableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6783A2DB3CA0000EAAF89 /* DraggableHeader.swift */; };
 		84E6783E2DB3D86F00EAAF89 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 84E6783D2DB3D86F00EAAF89 /* Lottie */; };
 		84E678422DB3DAE200EAAF89 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 84E678412DB3DAE200EAAF89 /* heart.json */; };
+		84FC21482DB6818600F2DA60 /* ZTronFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC21472DB6818400F2DA60 /* ZTronFilterModel.swift */; };
+		84FC214A2DB68BC400F2DA60 /* ZTronGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC21492DB68BC000F2DA60 /* ZTronGameModel.swift */; };
+		84FC214C2DB6913400F2DA60 /* ZTronFiltrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC214B2DB6912900F2DA60 /* ZTronFiltrator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,7 @@
 		8485B4B82C8FBB830018CAA1 /* HelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8485B4BC2C8FBB830018CAA1 /* HelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUITests.swift; sourceTree = "<group>"; };
 		8485B4BE2C8FBB830018CAA1 /* HelloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8491E4F02DB4F627001AFA00 /* Seal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seal.swift; sourceTree = "<group>"; };
 		84B1ECC62DB26A7C0078A0E0 /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
 		84B1EF622DB274F50078A0E0 /* ZTronFiltersFloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronFiltersFloatingButton.swift; sourceTree = "<group>"; };
 		84B394852DAFFD0300BAEDBB /* KeyboardReadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardReadable.swift; sourceTree = "<group>"; };
@@ -72,6 +77,9 @@
 		84E675A12DB3C87400EAAF89 /* ZTronToolsSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronToolsSelection.swift; sourceTree = "<group>"; };
 		84E6783A2DB3CA0000EAAF89 /* DraggableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableHeader.swift; sourceTree = "<group>"; };
 		84E678412DB3DAE200EAAF89 /* heart.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		84FC21472DB6818400F2DA60 /* ZTronFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronFilterModel.swift; sourceTree = "<group>"; };
+		84FC21492DB68BC000F2DA60 /* ZTronGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronGameModel.swift; sourceTree = "<group>"; };
+		84FC214B2DB6912900F2DA60 /* ZTronFiltrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronFiltrator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -142,6 +150,10 @@
 		8485B4A02C8FBB820018CAA1 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
+				84FC214B2DB6912900F2DA60 /* ZTronFiltrator.swift */,
+				84FC21492DB68BC000F2DA60 /* ZTronGameModel.swift */,
+				84FC21472DB6818400F2DA60 /* ZTronFilterModel.swift */,
+				8491E4F02DB4F627001AFA00 /* Seal.swift */,
 				84E678412DB3DAE200EAAF89 /* heart.json */,
 				84E6783A2DB3CA0000EAAF89 /* DraggableHeader.swift */,
 				84E675A12DB3C87400EAAF89 /* ZTronToolsSelection.swift */,
@@ -334,13 +346,17 @@
 				8485B4A42C8FBB820018CAA1 /* ContentView.swift in Sources */,
 				84B397262DB05C1500BAEDBB /* ZTronHome.swift in Sources */,
 				84B1EF632DB275030078A0E0 /* ZTronFiltersFloatingButton.swift in Sources */,
+				84FC21482DB6818600F2DA60 /* ZTronFilterModel.swift in Sources */,
+				84FC214C2DB6913400F2DA60 /* ZTronFiltrator.swift in Sources */,
 				84B394862DAFFD0800BAEDBB /* KeyboardReadable.swift in Sources */,
+				8491E4F12DB4F645001AFA00 /* Seal.swift in Sources */,
 				84B1ECC72DB26A810078A0E0 /* HomePageModel.swift in Sources */,
 				842DCC542D9D69C900ACA71D /* HelloApp.swift in Sources */,
 				84E675A22DB3C87C00EAAF89 /* ZTronToolsSelection.swift in Sources */,
 				8479F38B2D788F4100858CE9 /* ZTronHomeBackup.swift in Sources */,
 				84E6783B2DB3CA0300EAAF89 /* DraggableHeader.swift in Sources */,
 				8479F3902D78A54D00858CE9 /* CustomTextFieldStyle.swift in Sources */,
+				84FC214A2DB68BC400F2DA60 /* ZTronGameModel.swift in Sources */,
 				8447A4F72D1469C7001BBAAE /* TrolltasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

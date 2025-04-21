@@ -14,6 +14,8 @@ struct ContentView: View, KeyboardReadable {
     @State private var isKeyboardVisible: Bool = false
     
     @StateObject private var homePageModel: HomePageModel = .init()
+    @StateObject private var homePageFilters: ZTronFilterModel = .init(filters: ["Treyarch", "Infinity Ward", "SHG"])
+    @StateObject private var toolsFilters: ZTronFilterModel = .init(filters: ["Easter Eggs", "Skull Breaker", "Side Quests", "Music"])
     
     
     private var indicatorHeight: CGFloat? {
@@ -51,21 +53,13 @@ struct ContentView: View, KeyboardReadable {
                                 .font(.system(.footnote, design: .rounded).weight(self.activeTab == 0 ? .bold : .medium))
                         }
                         .tag(0)
-                        .overlay(alignment: .bottomTrailing) {
-                            ZTronFiltersFloatingButton(filters: ["Treyarch", "Infinity Ward", "SHG"])
-                                .padding(.bottom)
-                        }
                     
-                    ZTronToolsSelection()
+                    ZTronToolsSelection(self.toolsFilters)
                         .tabItem {
                             Label("Team Up", systemImage: "person.2.fill")
                                 .font(.system(.footnote, design: .rounded).weight(self.activeTab == 1 ? .bold : .medium))
                         }
                         .tag(1)
-                        .overlay(alignment: .bottomTrailing) {
-                            ZTronFiltersFloatingButton(filters: ["Easter egg", "Skull breaker", "Side quests", "Music"])
-                                .padding(.bottom)
-                        }
                     
                     Text("Favourites")
                         .tabItem {

@@ -14,7 +14,6 @@ public struct ZTronHome: View {
     @State private var showSearchOverlay: Bool = false
     @State private var searchText: String = ""
 
-    
     @ObservedObject private var model: HomePageModel
     
     private let tallImageAR: CGFloat
@@ -29,7 +28,10 @@ public struct ZTronHome: View {
     }
 
     
-    public init(model: HomePageModel, viewportWidth: Binding<CGFloat?>) {
+    public init(
+        model: HomePageModel,
+        viewportWidth: Binding<CGFloat?>
+    ) {
         self._viewportWidth = viewportWidth
         self._model = ObservedObject(wrappedValue: model)
         
@@ -95,7 +97,7 @@ public struct ZTronHome: View {
                         data: self.model.getGames(),
                         pageSize: geo.size
                     ) { game, _ in
-                        Image("\(game).game.logo")
+                        Image("\(game.getName()).game.logo")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -106,7 +108,7 @@ public struct ZTronHome: View {
                                     endPoint: .bottom)
                             )
                             .overlay(alignment: .bottom) {
-                                Image("\(game).text")
+                                Image("\(game.getName()).text")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(maxWidth: .infinity, alignment: .center)
@@ -118,7 +120,7 @@ public struct ZTronHome: View {
                             }
                             .overlay {
                                 ZStack {
-                                    if game == "waw" || game == "ghosts" || game == "mw3" {
+                                    if game.getName() == "waw" || game.getName() == "ghosts" || game.getName() == "mw3" {
                                         BackdropBlurView(radius: 5)
                                             .saturation(0.1)
                                         Image("zombietron.redacted")
@@ -135,7 +137,7 @@ public struct ZTronHome: View {
                             }
                             .onDrag {
                                 self.model.setCurrentDraggingGame(game)
-                                return NSItemProvider(item: String(describing: game) as NSString, typeIdentifier: "public.plain-text")
+                                return NSItemProvider(item: String(describing: game.getName()) as NSString, typeIdentifier: "public.plain-text")
                             }
                             .onDrop(of: [UTType.text], delegate: HomePageDragDropDelegate(dragging: game, model: self.model))
                         
@@ -256,6 +258,20 @@ public struct ZTronHome: View {
                     }
                 }
             }
+            .overlay(alignment: .bottomTrailing) {
+                ZTronFiltersFloatingButton(filters: ["Treyarch", "Infinity Ward", "SHG"])
+                    .onFilterAdded { filter in
+                        withAnimation {
+                            self.model.onFilterSelected(filter)
+                        }
+                    }
+                    .onFilterRemoved { filter in
+                        withAnimation {
+                            self.model.onFilterDisabled(filter)
+                        }
+                    }
+                    .padding(.bottom)
+            }
         }
     }
 }
@@ -263,10 +279,10 @@ public struct ZTronHome: View {
 
 
 public final class HomePageDragDropDelegate: DropDelegate {
-    private let dragging: String
+    private let dragging: ZTronGameModel
     weak private var model: HomePageModel? = nil
     
-    public init(dragging: String, model: HomePageModel) {
+    public init(dragging: ZTronGameModel, model: HomePageModel) {
         self.dragging = dragging
         self.model = model
     }
