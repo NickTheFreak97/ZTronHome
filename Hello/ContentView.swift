@@ -61,7 +61,7 @@ struct ContentView: View, KeyboardReadable {
                         }
                         .tag(1)
                     
-                    Text("Favourites")
+                    ZTronMapSelection()
                         .tabItem {
                             Label("Favourites", systemImage: "star.fill")
                                 .font(.system(.footnote, design: .rounded).weight(self.activeTab == 2 ? .bold : .medium))
@@ -103,9 +103,6 @@ struct ContentView: View, KeyboardReadable {
                             }
                     }
                 }
-            }
-            .onChange(of: self.indicatorHeight) { newHeight in
-                print(newHeight, self.bottomBarHeight, self.safeAreaBottomInset)
             }
             .onChange(of: self.activeTab) { _ in
                 withAnimation {
@@ -170,6 +167,13 @@ struct ContentView: View, KeyboardReadable {
                         .zIndex(0)
                 }
             }
+            
+            VStack(alignment: .leading) {
+                Rectangle()
+                    .fill(Color.accentColor.opacity(0.1))
+                    .frame(height: 1)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         }
     }
 }

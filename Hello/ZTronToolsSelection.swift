@@ -23,7 +23,7 @@ public struct ZTronToolsSelection: View {
                 ScrollView(.vertical, showsIndicators: false) {
                     if self.vSizeClass == .regular {
                         DraggableHeader(
-                            image: "iw.shaolin.map.banner",
+                            image: "iw.iw.ss.banner",
                             aspectRatio: 430.0/163.0,
                             coordinateSpace: "toolsPage"
                         )

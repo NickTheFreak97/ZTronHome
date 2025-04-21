@@ -35,6 +35,7 @@
 		84FC21482DB6818600F2DA60 /* ZTronFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC21472DB6818400F2DA60 /* ZTronFilterModel.swift */; };
 		84FC214A2DB68BC400F2DA60 /* ZTronGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC21492DB68BC000F2DA60 /* ZTronGameModel.swift */; };
 		84FC214C2DB6913400F2DA60 /* ZTronFiltrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC214B2DB6912900F2DA60 /* ZTronFiltrator.swift */; };
+		84FC214E2DB6A07300F2DA60 /* ZTronMapSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC214D2DB6A06F00F2DA60 /* ZTronMapSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		84FC21472DB6818400F2DA60 /* ZTronFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronFilterModel.swift; sourceTree = "<group>"; };
 		84FC21492DB68BC000F2DA60 /* ZTronGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronGameModel.swift; sourceTree = "<group>"; };
 		84FC214B2DB6912900F2DA60 /* ZTronFiltrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronFiltrator.swift; sourceTree = "<group>"; };
+		84FC214D2DB6A06F00F2DA60 /* ZTronMapSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTronMapSelection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -150,6 +152,7 @@
 		8485B4A02C8FBB820018CAA1 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
+				84FC214D2DB6A06F00F2DA60 /* ZTronMapSelection.swift */,
 				84FC214B2DB6912900F2DA60 /* ZTronFiltrator.swift */,
 				84FC21492DB68BC000F2DA60 /* ZTronGameModel.swift */,
 				84FC21472DB6818400F2DA60 /* ZTronFilterModel.swift */,
@@ -357,6 +360,7 @@
 				84E6783B2DB3CA0300EAAF89 /* DraggableHeader.swift in Sources */,
 				8479F3902D78A54D00858CE9 /* CustomTextFieldStyle.swift in Sources */,
 				84FC214A2DB68BC400F2DA60 /* ZTronGameModel.swift in Sources */,
+				84FC214E2DB6A07300F2DA60 /* ZTronMapSelection.swift in Sources */,
 				8447A4F72D1469C7001BBAAE /* TrolltasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

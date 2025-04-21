@@ -29,7 +29,7 @@ struct DraggableHeader: View {
                     )
                 }
                 .overlay(alignment: .top) {
-                    Image("iw.shaolin.text")
+                    Image("iw.iw.ss.text")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(maxWidth: .infinity)
