@@ -28,7 +28,8 @@ public struct ZTronMapSelection: View {
                                     Image("iw.iw.\(map).text")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
-                                        .frame(width: geo.size.width * 0.45)
+                                        .frame(maxHeight: .infinity)
+                                        .padding(.vertical)
                                 }
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
                                 .overlay {

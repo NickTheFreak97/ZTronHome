@@ -174,6 +174,15 @@ struct ContentView: View, KeyboardReadable {
                     .frame(height: 1)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+            
+            VStack(alignment: .leading) {
+                Rectangle()
+                    .fill(Color.accentColor.opacity(0.1))
+                    .frame(height: 1)
+                    .offset(y: -(self.indicatorHeight ?? .zero))
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+
         }
     }
 }
